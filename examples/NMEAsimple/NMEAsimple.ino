@@ -1,5 +1,5 @@
 #include <NMEAGPS.h>
-
+#include <GPSport.h>
 //======================================================================
 //  Program: NMEAsimple.ino
 //
@@ -34,7 +34,7 @@
 //
 //======================================================================
 
-#include <GPSport.h>
+
 
 NMEAGPS  gps; // This parses the GPS characters
 gps_fix  fix; // This holds on to the latest values

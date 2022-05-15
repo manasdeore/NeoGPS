@@ -91,7 +91,7 @@ static gps_fix  fix;
 static void doSomeWork()
 {
   // Print all the things!
-
+fix = gps.read();
   trace_all( DEBUG_PORT, gps, fix );
 
 } // doSomeWork
